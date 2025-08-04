@@ -24,6 +24,7 @@ Estado del proyecto:
 - ✅ etapa 2: HTML semántico y navegación.
 - ✅ etapa 3: Accesibilidad y SEO básico.
 - ✅ etapa 4: Formularios y validación nativa
+- ✅ etapa 5: Elementos semánticos avanzados y comandos Git esenciales
 
 
 Autor:

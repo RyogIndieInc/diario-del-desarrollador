@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+        <h1>Diario del Desarrollador</h1>
         <nav>
             <ul>
                 <li><a href="#inicio" title="navbar inicio">Inicio</a></li>
@@ -19,7 +20,7 @@
             </ul>
         </nav>
         <img src="./img/LogoRyogDev.png" alt="Logo de RyogDev" width="200">
-        <h1>¡Hola! Soy <em>RyogDev</em>, el aprendiz a <strong>desarrollador full-stack</strong></h1>
+        <h2>¡Hola! Soy <em>RyogDev</em>, el aprendiz a <strong>desarrollador full-stack</strong></h2>
         <p>Bienvenido a mi diario de aventuras en el mundo del desarrollo web.</p>
     </header>
 
@@ -31,15 +32,38 @@
         <section id="habilidades">
             <h2>Habilidades:</h2>
             <h3>Habilidades desbloqueadas:</h3>
-
+            <ul>
+                <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                <li><abbr title="HyperText Markup Language">HTML Semántico</abbr></li>
+                <li><abbr title="HyperText Markup Language">HTML</abbr><abbr title="Search Engine Optimization-">SEO</abbr></li>
+                <li>Accesibilidad</li>
+                <li>Git</li>
+                <li>Github</li>
+            </ul>
             <h3>Habilidades bloqueadas:</h3>
         </section>
 
         <section id="mini-proyectos">
             <h2>Mini proyectos:</h2>
+            <aside>
+                <figure>
+                    <figcaption>Diario del Desarrollador</figcaption>
+                    <h3><time>4 de Agosto 2025</time></h3>
+                    <img src="./img/div-contato.png" alt="Capture de contacto">
+                </figure>
+            </aside>
+            
             <h3>mini proyectos completados:</h3>
+            <ol>
+                <li>Muscle gym</li>
+            </ol>
 
             <h3>mini proyectos en procesos:</h3>
+            <ol>
+                <li>Diario del Desarrollador</li>
+                <li>Landing page personal</li>
+                <li>Tarjeta de presentación</li>
+            </ol>
 
             <h3>mini proyectos futuros:</h3>
         </section>
@@ -49,45 +73,57 @@
             <h3>Proyectos completados:</h3>
 
             <h3>Proyectos en procesos:</h3>
+            <ol>
+                <li>Cv-web</li>
+            </ol>
 
             <h3>Proyectos futuros:</h3>
+        </section>
+
+        <section>
+            <article>
+                <h2>Compromiso:</h2>
+                <p>No vine a jugar su juego monopoly, vine a cambiar las reglas</p>
+            </article>
         </section>
 
     </main>
 
     <footer>
         <section id="contacto">
-            <h2>Contacto:</h2>
-            <fieldset title="formulario de contacto" lang="es">
-                <legend>Formulario de contacto</legend>
-                <form autocomplete="on">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="Nombre" title="nombre del usuario" placeholder="Introduce tu nombre" required>
-                    <br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="Email" title="email del usuario" placeholder="Introduce tu email" required>
-                    <br>
-                    <label for="asunto">Asunto:</label>
-                    <input type="text" id="asunto" name="Asunto" title="asunto por el cual se contacta" placeholder="Introduce tu asunto" required>
-                    <br>
-                    <label for="comentario">Breve description de tus necesidades:</label>
-                    <br>
-                    <textarea name="comentario" id="comentario" title="descripción de la razón de contacto" placeholder="Introduce tu comentario" cols="30" rows="5" minlength="20"></textarea>
-                    <br>
-                    <label for="archivo">Referencia:</label>
-                    <input type="file" id="archivo" name="Referencia" title="archivo de referencia">
-                    <br>
-                    <select name="Tipo de mensaje" id="tipo-mensaje" title="Selecciona una opción" required>
-                        <option value="contratar">Contratar</option>
-                        <option value="feedback">Feedback</option>
-                        <option value="soporte">Soporte</option>
-                        <option value="sugerencia">Sugerencia</option>
-                    </select>
-                    <br>
-                    <input type="submit" value="Enviar" name="Enviar" title="botón de enviar">
-                    <input type="reset" value="Resetear" name="Resetear" title="botón para resetear">
-                </form>
-            </fieldset>
+            <address>
+                <h2>Contacto:</h2>
+                <fieldset title="formulario de contacto" lang="es">
+                    <legend>Formulario de contacto</legend>
+                    <form autocomplete="on">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="Nombre" title="nombre del usuario" placeholder="Introduce tu nombre" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="Email" title="email del usuario" placeholder="Introduce tu email" required>
+                        <br>
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="Asunto" title="asunto por el cual se contacta" placeholder="Introduce tu asunto" required>
+                        <br>
+                        <label for="comentario">Breve description de tus necesidades:</label>
+                        <br>
+                        <textarea name="comentario" id="comentario" title="descripción de la razón de contacto" placeholder="Introduce tu comentario" cols="30" rows="5" minlength="20"></textarea>
+                        <br>
+                        <label for="archivo">Referencia:</label>
+                        <input type="file" id="archivo" name="Referencia" title="archivo de referencia">
+                        <br>
+                        <select name="Tipo de mensaje" id="tipo-mensaje" title="Selecciona una opción" required>
+                            <option value="contratar">Contratar</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="soporte">Soporte</option>
+                            <option value="sugerencia">Sugerencia</option>
+                        </select>
+                        <br>
+                        <input type="submit" value="Enviar" name="Enviar" title="botón de enviar">
+                        <input type="reset" value="Resetear" name="Resetear" title="botón para resetear">
+                    </form>
+                </fieldset>
+            </address>
         </section>
 
         <div>
