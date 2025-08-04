@@ -1,5 +1,3 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-
 # 📘 Diario del Desarrollador | Developer's Diary
 
 ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -7,6 +5,9 @@
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow?style=for-the-badge)
 ![Idioma](https://img.shields.io/badge/README-Bilingüe-blueviolet?style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+---
 
 🔗 [🌐 Ver Demo en vivo | Live Demo](https://ryogindieinc.github.io/diario-del-desarrollador/)
 
