@@ -18,5 +18,12 @@ Tecnologías usadas:
 - Git
 - GitHub
 
+Estado del proyecto:
+
+✅ etapa 1: Estructura inicial y primer commit.
+✅ etapa 2: HTML semántico y navegación.
+✅ etapa 3: Accesibilidad y SEO básico.
+
+
 Autor:
 Ryog Indie Inc. - RyogDev
