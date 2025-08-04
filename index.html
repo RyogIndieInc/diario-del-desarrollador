@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Acompaña a Ryog, un desarrollador indie en su viaje hacia el dominio del desarrollo web full-stack, HTML, CSS, Git, y más.">
     <title>El Diario del Desarrollador | Mi camino como Full-Stack Dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -57,14 +58,47 @@
     <footer>
         <section id="contacto">
             <h2>Contacto:</h2>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="Introduce tu nombre">
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Introduce tu email">
-            </form>
+            <fieldset title="formulario de contacto" lang="es">
+                <legend>Formulario de contacto</legend>
+                <form autocomplete="on">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="Nombre" title="nombre del usuario" placeholder="Introduce tu nombre" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" title="email del usuario" placeholder="Introduce tu email" required>
+                    <br>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="Asunto" title="asunto por el cual se contacta" placeholder="Introduce tu asunto" required>
+                    <br>
+                    <label for="comentario">Breve description de tus necesidades:</label>
+                    <br>
+                    <textarea name="comentario" id="comentario" title="descripción de la razón de contacto" placeholder="Introduce tu comentario" cols="30" rows="5" minlength="20"></textarea>
+                    <br>
+                    <label for="archivo">Referencia:</label>
+                    <input type="file" id="archivo" name="Referencia" title="archivo de referencia">
+                    <br>
+                    <select name="Tipo de mensaje" id="tipo-mensaje" title="Selecciona una opción" required>
+                        <option value="contratar">Contratar</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="soporte">Soporte</option>
+                        <option value="sugerencia">Sugerencia</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Enviar" name="Enviar" title="botón de enviar">
+                    <input type="reset" value="Resetear" name="Resetear" title="botón para resetear">
+                </form>
+            </fieldset>
         </section>
+
+        <div>
+            <ul>
+                <li><a href="mailto:ryogdev@gmail.com" target="_blank" title="email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://wa.me/+51934601831" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://x.com/RyogDev" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ronny-olivares-dev/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/RyogIndieInc" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

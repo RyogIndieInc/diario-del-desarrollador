@@ -20,9 +20,10 @@ Tecnologías usadas:
 
 Estado del proyecto:
 
-✅ etapa 1: Estructura inicial y primer commit.
-✅ etapa 2: HTML semántico y navegación.
-✅ etapa 3: Accesibilidad y SEO básico.
+- ✅ etapa 1: Estructura inicial y primer commit.
+- ✅ etapa 2: HTML semántico y navegación.
+- ✅ etapa 3: Accesibilidad y SEO básico.
+- ✅ etapa 4: Formularios y validación nativa
 
 
 Autor:
