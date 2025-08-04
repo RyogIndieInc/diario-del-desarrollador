@@ -20,13 +20,20 @@
             </ul>
         </nav>
         <img src="./img/LogoRyogDev.png" alt="Logo de RyogDev" width="200">
-        <h2>¡Hola! Soy <em>RyogDev</em>, el aprendiz a <strong>desarrollador full-stack</strong></h2>
+        <h2 id="titulo-diario">¡Hola! Soy <em>RyogDev</em>, el aprendiz a <strong>desarrollador full-stack</strong></h2>
         <p>Bienvenido a mi diario de aventuras en el mundo del desarrollo web.</p>
     </header>
 
     <main>
-        <section id="inicio">
-            <h2>¡BIENVENIDOS A MI DIARIO DEL <span>DESARROLLADOR</span></h2>
+        <!-- Sección de presentación -->
+        <section aria-labelledby="titulo-seccion-intro">
+        <h2 id="titulo-seccion-intro">¿Qué es este diario?</h2>
+        <p>Es un registro interactivo de cada habilidad que aprendo en mi camino como desarrollador web.</p>
+        </section>
+
+
+        <section aria-labelledby="inicio">
+            <h2 id="inicio">¡BIENVENIDOS A MI DIARIO DEL <span>DESARROLLADOR</span>!</h2>
         </section>
 
         <section id="habilidades">
@@ -35,7 +42,9 @@
             <ul>
                 <li><abbr title="HyperText Markup Language">HTML</abbr></li>
                 <li><abbr title="HyperText Markup Language">HTML Semántico</abbr></li>
-                <li><abbr title="HyperText Markup Language">HTML</abbr><abbr title="Search Engine Optimization-">SEO</abbr></li>
+                <li><abbr title="HyperText Markup Language">HTML</abbr> + 
+                    <abbr title="Search Engine Optimization">SEO</abbr>
+                </li>
                 <li>Accesibilidad</li>
                 <li>Git</li>
                 <li>Github</li>
@@ -43,13 +52,14 @@
             <h3>Habilidades bloqueadas:</h3>
         </section>
 
-        <section id="mini-proyectos">
-            <h2>Mini proyectos:</h2>
+        <section aria-labelledby="mini-proyectos">
+            <h2 id="mini-proyectos">Mini proyectos:</h2>
             <aside>
                 <figure>
-                    <figcaption>Diario del Desarrollador</figcaption>
-                    <h3><time>4 de Agosto 2025</time></h3>
-                    <img src="./img/div-contato.png" alt="Capture de contacto">
+                    <img src="./img/div-contato.png" alt="Captura de contacto">
+                    <figcaption>
+    Diario del Desarrollador – <time datetime="2025-08-04">4 de agosto de 2025</time>
+                    </figcaption>
                 </figure>
             </aside>
             
@@ -68,8 +78,8 @@
             <h3>mini proyectos futuros:</h3>
         </section>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
+        <section aria-labelledby="proyectos">
+            <h2 id="proyectos">Proyectos</h2>
             <h3>Proyectos completados:</h3>
 
             <h3>Proyectos en procesos:</h3>
@@ -81,21 +91,23 @@
         </section>
 
         <section>
+            <h2>Artículo de compromiso</h2>
             <article>
-                <h2>Compromiso:</h2>
+                <h3>Compromiso:</h3>
                 <p>No vine a jugar su juego monopoly, vine a cambiar las reglas</p>
             </article>
+            
         </section>
 
     </main>
 
     <footer>
-        <section id="contacto">
+        <section aria-labelledby="contacto">
+            <h2 id="contacto">Contacto:</h2>
             <address>
-                <h2>Contacto:</h2>
                 <fieldset title="formulario de contacto" lang="es">
                     <legend>Formulario de contacto</legend>
-                    <form autocomplete="on">
+                    <form autocomplete="on" lang="es">
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="Nombre" title="nombre del usuario" placeholder="Introduce tu nombre" required>
                         <br>
@@ -106,13 +118,13 @@
                         <input type="text" id="asunto" name="Asunto" title="asunto por el cual se contacta" placeholder="Introduce tu asunto" required>
                         <br>
                         <label for="comentario">Breve description de tus necesidades:</label>
-                        <br>
-                        <textarea name="comentario" id="comentario" title="descripción de la razón de contacto" placeholder="Introduce tu comentario" cols="30" rows="5" minlength="20"></textarea>
+                        <p id="mensaje-descriptivo">Describe con claridad cómo puedo ayudarte. No te preocupes por los detalles técnicos.</p>
+                        <textarea aria-describedby="mensaje-descriptivo" name="comentario" id="comentario" title="descripción de la razón de contacto" placeholder="Introduce tu comentario" cols="30" rows="5" minlength="20"></textarea>
                         <br>
                         <label for="archivo">Referencia:</label>
                         <input type="file" id="archivo" name="Referencia" title="archivo de referencia">
                         <br>
-                        <select name="Tipo de mensaje" id="tipo-mensaje" title="Selecciona una opción" required>
+                        <select name="Tipo de mensaje" id="tipo-mensaje" title="Selecciona una opción">
                             <option value="contratar">Contratar</option>
                             <option value="feedback">Feedback</option>
                             <option value="soporte">Soporte</option>
@@ -128,13 +140,15 @@
 
         <div>
             <ul>
-                <li><a href="mailto:ryogdev@gmail.com" target="_blank" title="email"><i class="fas fa-envelope"></i></a></li>
-                <li><a href="https://wa.me/+51934601831" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
-                <li><a href="https://x.com/RyogDev" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/ronny-olivares-dev/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/RyogIndieInc" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:ryogdev@gmail.com" target="_blank" rel="noopener noreferrer" title="email"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://wa.me/+51934601831" target="_blank" rel="noopener noreferrer" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://x.com/RyogDev" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ronny-olivares-dev/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/RyogIndieInc" target="_blank" rel="noopener noreferrer" title="Github"><i class="fab fa-github"></i></a></li>
             </ul>
         </div>
+
+        <p>&copy; 2025 RyogDev | Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
